@@ -1,0 +1,162 @@
+/* Colors */
+.styles {
+    color: hsl(228, 45%, 44%); 
+    color: hsl(225, 100%, 94%);
+    color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    color: hsl(223, 47%, 23%);
+}
+/*------------------- background ----------------------*/
+body{
+    background-color: hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center
+}
+
+.background__pattern-desktop{
+    width: 100vw;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    opacity: .5;
+}
+
+.background__pattern-mobile{
+    display: none;
+}
+/*--------------------- card ------------------------*/
+.order__card{
+    background-color: #fff;
+    width: 345px;
+    position: relative;
+    top: 18vh;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.card__header-img{
+    width: 100%;
+}
+
+.order__card-description .card__text--light{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.card__billing{
+    height: 65px;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.card__billing-icon{
+    position: absolute;
+    top: 17px;
+    left: 20px;
+}
+
+.billing__text{
+    position: relative;
+    width: 150px;
+    margin-left: 90px;
+    text-align: left;
+}
+
+.card__billing .card__text--semibold{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: .95rem;
+    font-weight: 900;
+}
+
+.card__billing .card__text--light{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card__link{
+    position: absolute;
+    top: 28px;
+    right: 20px;
+}
+
+.card__link:link,
+.card__link:visited{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.card__link:hover,
+.card__link:active,
+.card__link:focus{
+    text-decoration: none;
+    color: hsl(224, 53%, 55%)
+}
+
+.card__button{
+    width: 305px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 10px 10px hsl(245 75% 52% / .2);
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-size: .9rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.card__button:hover,
+.card__button:active,
+.card__button:focus{
+    background-color: hsl(224, 53%, 55%);
+    cursor: pointer;
+}
+
+.card__button--cancel{
+    background-color: hsl(0 0% 0% /0);
+    box-shadow: none;
+    width: 32%;
+    height: 18px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.card__button--cancel:hover,
+.card__button--cancel:active,
+.card__button--cancel:focus{
+    background-color: hsl(0 0% 0% / 0);
+    color: #000;
+    font-weight: 900;
+}
+/*------------------- text styles ----------------------*/
+.card__text{
+    color: hsl(223, 47%, 23%);
+    line-height: 1.5em;
+}
+
+.card__text--bold{
+    font-weight: 900;
+}
+
+.card__text--semibold{
+    font-weight: 700Ks;
+}
+
+.card__text--title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.card__text--light{
+    color: hsl(224, 23%, 55%);
+}
